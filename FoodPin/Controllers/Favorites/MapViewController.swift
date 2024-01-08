@@ -15,7 +15,7 @@ class MapViewController: UIViewController, MKMapViewDelegate {
     var restaurant: RestaurantMO!
     
     override func viewDidLoad() {
-        super.viewDidLoad()
+        super.viewDidLoad()    
         addAnnotationToMap()
         // Customize the map view
         mapView.delegate = self
